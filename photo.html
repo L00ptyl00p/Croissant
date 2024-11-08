@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="src/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-color: #f5d56a;
+            color: white;
+            padding: 1rem;
+            width: 100%;
+            text-align: center;
+        }
+
+
+
+        .container {
+            width: 100%;
+            margin: 0 auto;
+            border-radius: 20px;
+
+
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 2rem 0;
+        }
+
+        .gallery img {
+            margin: 1rem;
+            max-width: 200px;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+        }
+
+        .grid {
+            grid-template-columns: 100px 50px 100px;
+            grid-template-rows: 80px auto 80px;
+            column-gap: 10px;
+            row-gap: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Photo Gallery</h1>
+    </header>
+    <div class="container">
+        <div class="grid">
+            <div class="gallery">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPjA5TINeVXbatEk2EqXrwswyWi6OB5QeToQ&s.jpg"
+                    alt="Photo 1">
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCGlXEGj5RgLAP8tUX_NTT3Tk2XNzCrFoUOQ&s"
+                    alt="Photo 2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStKfY3PMyfhBzDhp7QxwdWELZu2HKkvoGm4g&s"
+                    alt="Photo 2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEMmDBqk7OUcm3oSXOYwSUu022yJ8fXfPbeg&s"
+                    alt="Photo 4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTka238_9U8frk9n3JJelGe_yg5Vm-2XSdg3w&s"
+                    alt="Photo 5">
+            </div>
+        </div>
+
+    </div>
+    <button>
+        <a href="index.html">Home</a>
+    </button>
+    <br />
+    <button>
+        <a href="contact.html">Contact Us</a>
+    </button>
+</body>
+
+</html>
