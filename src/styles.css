@@ -1,7 +1,7 @@
 body {
   background: rgb(118, 185, 17);
   text-align: center;
-  font-family: Arial, sans-serif;
+  font-family: merienda;
 }
 h1 {
   font-size: 50px;
@@ -24,6 +24,7 @@ a {
 p {
   font-size: 28px;
   color: rgb(11, 87, 250);
+  font-weight: 300;
 }
 .email-link {
   font-size: 35px;
